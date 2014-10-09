@@ -1,0 +1,30 @@
+/*
+  I always wanted to build my own css responsive grid framework, so I'll try to do it in that project.
+  I took some inspiration about the basic need on an alsacreation article : Bonnes pratiques en CSS : BEM et OOCSS.
+  Link here : http://www.alsacreations.com/article/lire/1641-bonnes-pratiques-en-css-bem-et-oocss.html
+
+  I'll build the framework following the different steps:
+  1/ Variables definition
+  2/ Building the grid system
+  3/ Designing elements (I'll use Photoshop or Dreamweaver don't know yet)
+  4/ Make it responsive
+  5/ Make it compatible with the main browsers
+  6/ Create a min.css for better performances
+
+  Thanks to 960grid, alsacreation and Hongkiat articles and tutorials that helped me a lot !!
+
+ */
+/* Variables definition */
+/* Colors
+  As I am color-blind I'm glad to use tools to respect good colors principal
+  Here is a good article to find your theme colors : http://www.hongkiat.com/blog/best-color-tools-for-web-designers/
+  I finally chose adobe color CC tool (older name was kuler adobe)
+*/
+/* Building the grid system
+  I've followed mambows advices : https://github.com/mambows/simple-compass-css (OpenSource repo)
+*/
+/*
+  Main element
+*/
+
+/*# sourceMappingURL=skeleton.css.map */
