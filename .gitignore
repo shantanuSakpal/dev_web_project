@@ -1,1 +1,4 @@
-*.scss
+# Ignore files that are not pertinent for the notation criteria
+css/*.scss
+
+# Ignore files that may contain sensitive information
