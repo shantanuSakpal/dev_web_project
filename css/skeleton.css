@@ -23,8 +23,62 @@
 /* Building the grid system
   I've followed mambows advices : https://github.com/mambows/simple-compass-css (OpenSource repo)
 */
+.col1 {
+  width: 5.5%; }
+
+.col2 {
+  width: 14.09091%; }
+
+.col3 {
+  width: 22.68182%; }
+
+.col4 {
+  width: 31.27273%; }
+
+.col5 {
+  width: 39.86364%; }
+
+.col6 {
+  width: 48.45455%; }
+
+.col7 {
+  width: 57.04545%; }
+
+.col8 {
+  width: 65.63636%; }
+
+.col9 {
+  width: 74.22727%; }
+
+.col10 {
+  width: 82.81818%; }
+
+.col11 {
+  width: 91.40909%; }
+
+.col12 {
+  width: 100%; }
+
+/* Containers create space with borders */
+.container {
+  padding: 0 15px;
+  position: relative; }
+
+/* However rows use the full width */
+.row {
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
 /*
-  Main element
+  Main elements
+*/
+/*
+  Browser compatibility
+  I've just found this tuto : http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+  which relates the elements compatibilities
+
+  I may find some information on those websites : http://www.stefanwienert.de/blog/2012/05/18/easy-css-vendor-prefix-mixin-for-sass/
 */
 
 /*# sourceMappingURL=skeleton.css.map */

@@ -53,6 +53,38 @@ $column :           12; //Twelve columns as most of the css frameworks today (Fo
 // That is our gutter width. And here is our final gutter's formula
 $columnGutter   : (100 - ($columnWidth * $column)) / ($column - 1);
 
+@for $i from 1 through $column {
+  .col#{$i} {
+    $colWidth: 1% * ($columnWidth * $i) + ($columnGutter *($i - 1));
+    width: $colWidth;
+  }
+}
+
+/* Containers create space with borders */
+.container {
+    padding: 0 15px;
+    position: relative;
+}
+
+/* However rows use the full width */
+.row {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
 /*
   Main elements
+*/
+
+
+
+
+/*
+  Browser compatibility
+  I've just found this tuto : http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+  which relates the elements compatibilities
+
+  I may find some information on those websites : http://www.stefanwienert.de/blog/2012/05/18/easy-css-vendor-prefix-mixin-for-sass/
 */
