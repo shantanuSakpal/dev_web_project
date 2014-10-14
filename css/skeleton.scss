@@ -26,10 +26,20 @@ $primary-color: rgb(16,40,64);
 $secondary-color: rgb(64,161,255);
 $third-color: orange;
 
+/* Screen sizes for media queries */
+/*
+  I've been using the following website to get an idea of the different screen size
+  I chose not to make any difference between portrait and landscape orientation. It will may be in a next version :)
+  I've made the difference between 3 screen sizes, consider this as mobile, tablet and laptop
+*/
+$small-screen-max-size: 420px;
+$medium-screen-max-size: 760 px;
+$large-screen-max-size: 1280px;
+
 /* Building the grid system
   I've followed mambows advices : https://github.com/mambows/simple-compass-css (OpenSource repo)
 */
-$containerWidth :   978px;
+$container-max-width :   1200px; //I May not use it depending on test results
 $columnWidth :      5.5; //In percent.
 $column :           12; //Twelve columns as most of the css frameworks today (Foundation, 960grid or Boostrap)
 
@@ -53,17 +63,68 @@ $column :           12; //Twelve columns as most of the css frameworks today (Fo
 // That is our gutter width. And here is our final gutter's formula
 $columnGutter   : (100 - ($columnWidth * $column)) / ($column - 1);
 
-@for $i from 1 through $column {
-  .col#{$i} {
-    $colWidth: 1% * ($columnWidth * $i) + ($columnGutter *($i - 1));
-    width: $colWidth;
+
+/* Building responsive the grid system */
+
+@media screen and (min-width: ($large-screen-max-size)+1) {
+  @for $i from 1 through $column {
+    .col#{$i} {
+      $colWidth: 1% * ($columnWidth * $i) + ($columnGutter *($i - 1));
+      width: $colWidth;
+    }
+  }
+}
+// and after more than one hour trying to deal with the following algorithm, i'm glad to tell you that i succeed !!!!! Bouyaaa!
+@media screen and (min-width: ($medium-screen-max-size +1) ) and (max-width:$large-screen-max-size ) {
+  @for $i from 1 through $column{
+    @if($i<($column/2)){
+      .col#{$i} {
+        $colWidth: 1% * ($columnWidth * 2 * $i) + ($columnGutter *( 2 * $i - 1));
+        width: $colWidth;
+      }
+    }
+    @else{
+      .col#{$i} {
+        widows: 100%;
+      }
+    }
   }
 }
 
-/* Containers create space with borders */
-.container {
-    padding: 0 15px;
-    position: relative;
+@media screen and (min-width: ($small-screen-max-size +1) ) and (max-width:$medium-screen-max-size ) {
+  @for $i from 1 through 2{
+      .col#{$i} {
+        widows: 50%;
+      }
+    }
+  @for $i from 3 through $column{
+    .col#{$i} {
+      widows: 100%;
+    }
+  }
+  }
+
+
+@media screen and (max-width: $small-screen-max-size) {
+  @for $i from 1 through $column {
+    .col#{$i} {
+      width: 100%;
+    }
+  }
+}
+
+/* Containers */
+.grid-container{
+  width: 100%;
+  max-width: $container-max-width;
+}
+
+/*-- clearfix -- */
+.row:before,
+.row:after {
+  content:"";
+  //display: table ;
+  clear:both;
 }
 
 /* However rows use the full width */
