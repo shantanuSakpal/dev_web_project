@@ -1,0 +1,19 @@
+/*
+  Here you can change the variables such as colors, numbers of columns, screen sizes, etc...
+*/
+
+/* Colors */
+$primary-color: rgb(16,40,64);
+$secondary-color: rgb(64,161,255);
+$third-color: orange;
+
+/* screen width */
+$small-screen-max-size: 420px;
+$medium-screen-max-size: 760 px;
+$large-screen-max-size: 1280px;
+
+/* Grid settings */
+$container-max-width : 1200px;
+$columns : 12;
+$full-width: 100; //in percents
+$column-width: ($columns * $container-max-width) / $full-width;

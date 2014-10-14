@@ -1,0 +1,23 @@
+/* Building the grid system */
+@import "settings";
+
+//Clear everything before starting :)
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behaviour on widths */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row{
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+
+
