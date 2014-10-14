@@ -1,4 +1,8 @@
 /* Building the grid system */
+/*
+  I've used the metaphor with the turtle shell which is pretty well organized with nice paddings between its blocks.
+  That is why the columns are named "shells" !
+*/
 @import "settings";
 
 //Clear everything before starting :)
@@ -7,17 +11,40 @@
 *:before {
   margin: 0;
   padding: 0;
-  /* Removes padding behaviour on widths */
+}
+
+.row{
+  width:100%;
+  content: "";
+  display: table;
+  clear: both;
+  /* Removes padding behaviour on widths, everything will stay into the row */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.row{
-  width:100%;
-  padding:0;
-  margin:0;
+/* General column attributes */
+[class*='shell-'] {
+  //float: left;
+  position: relative;
+  padding: $gutter-width#{"%"};
 }
+
+/* Pull last column to the right */
+[class*='shell-']:last-of-type {
+  float: right;
+  padding: $gutter-width#{"%"};
+}
+
+/* Building the default grid system*/
+@for $i from 1 through $columns {
+  .shell#{$i} {
+    width: 1% * ($column-width * $i) + ($gutter-width *($i - 1));
+  }
+}
+
+/* Building grids for responsive layout */
 
 
 

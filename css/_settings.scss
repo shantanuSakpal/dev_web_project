@@ -13,7 +13,7 @@ $medium-screen-max-size: 760 px;
 $large-screen-max-size: 1280px;
 
 /* Grid settings */
-$container-max-width : 1200px;
+$container-max-width : 1200; //in px
 $columns : 12;
-$full-width: 100; //in percents
-$column-width: ($columns * $container-max-width) / $full-width;
+$column-width: 6; // in %
+$gutter-width: (100 - ($column-width * $columns)) / ($columns - 1);

@@ -32,55 +32,55 @@
 /* Building responsive the grid system */
 @media screen and (min-width: 1281px) {
   .col1 {
-    width: 5.5%; }
+    width: 6%; }
 
   .col2 {
-    width: 14.09091%; }
+    width: 14.54545%; }
 
   .col3 {
-    width: 22.68182%; }
+    width: 23.09091%; }
 
   .col4 {
-    width: 31.27273%; }
+    width: 31.63636%; }
 
   .col5 {
-    width: 39.86364%; }
+    width: 40.18182%; }
 
   .col6 {
-    width: 48.45455%; }
+    width: 48.72727%; }
 
   .col7 {
-    width: 57.04545%; }
+    width: 57.27273%; }
 
   .col8 {
-    width: 65.63636%; }
+    width: 65.81818%; }
 
   .col9 {
-    width: 74.22727%; }
+    width: 74.36364%; }
 
   .col10 {
-    width: 82.81818%; }
+    width: 82.90909%; }
 
   .col11 {
-    width: 91.40909%; }
+    width: 91.45455%; }
 
   .col12 {
     width: 100%; } }
 @media screen and (min-width: 760 px1) and (max-width: 1280px) {
   .col1 {
-    width: 14.09091%; }
+    width: 14.54545%; }
 
   .col2 {
-    width: 31.27273%; }
+    width: 31.63636%; }
 
   .col3 {
-    width: 48.45455%; }
+    width: 48.72727%; }
 
   .col4 {
-    width: 65.63636%; }
+    width: 65.81818%; }
 
   .col5 {
-    width: 82.81818%; }
+    width: 82.90909%; }
 
   .col6 {
     widows: 100%; }
