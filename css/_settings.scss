@@ -3,17 +3,24 @@
 */
 
 /* Colors */
-$primary-color: rgb(16,40,64);
+$primary-color: rgb(236, 47, 25);
 $secondary-color: rgb(64,161,255);
-$third-color: orange;
+$header-color : darkred;
+$header-font: white;
+
+/* fonts */
+$primary-font: arial;
+
 
 /* screen width */
 $small-screen-max-size: 420px;
-$medium-screen-max-size: 760 px;
-$large-screen-max-size: 1280px;
+$medium-screen-max-size: 768px;
+$large-screen-max-size: 1280px; //may not be useful
 
 /* Grid settings */
 $container-max-width : 1200; //in px
 $columns : 12;
-$column-width: 6; // in %
+$column-width: 8; // in %
 $gutter-width: (100 - ($column-width * $columns)) / ($columns - 1);
+$full-width:100%;
+

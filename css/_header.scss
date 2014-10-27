@@ -1,0 +1,28 @@
+/* Header */
+.header, .header:after{
+  position:fixed;
+  width:100%;
+  background-color: $header-color;
+  height: 40px;
+  color: $header-font;
+}
+.logo{
+  position: absolute;
+  top:0px;
+  left:0px;
+  padding: 10px;
+  padding-left: 10%;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .logo {display: none;}
+}
+
+.find{
+  position: absolute;
+  top:0px;
+  right:0px;
+  padding: 10px;
+  padding-right: 30%;
+}
+

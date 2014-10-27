@@ -6,3 +6,6 @@ css/*.css.map
 .idea/*
 
 # Ignore files that may contain sensitive information
+
+
+img/*
