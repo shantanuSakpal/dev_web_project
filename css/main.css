@@ -191,6 +191,12 @@ p {
   text-align: center; }
   .footer .mention-legale {
     font-size: 10px; }
+  .footer h4 {
+    padding: 10px; }
+  .footer p {
+    padding: 5px; }
+  .footer img {
+    padding: 10px; }
 
 /* Header */
 .header, .header:after {

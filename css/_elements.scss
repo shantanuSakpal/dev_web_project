@@ -63,6 +63,7 @@ p{
 }
 
 
+
 .center{
 text-align: center;
 }
@@ -75,10 +76,20 @@ text-align: center;
 .footer{
   background-color: #242424;
   position: bottom;
+
   color: white;
   text-align: center;
   .mention-legale{
     font-size: 10px;
+  }
+  h4{
+    padding: 10px;
+  }
+  p{
+    padding: 5px;
+  }
+  img{
+    padding: 10px;
   }
 }
 
