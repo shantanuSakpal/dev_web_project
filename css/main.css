@@ -183,8 +183,7 @@ p {
 
 .large-icon {
   padding-top: 15%;
-  left: 40%;
-  position: relative;
+  text-align: center;
   padding-bottom: 10px; }
   .large-icon :hover {
     -webkit-animation: fa-spin 2s infinite linear;

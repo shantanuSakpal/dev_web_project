@@ -41,10 +41,11 @@
             <div id="qui-sommes-nous" class="qui-sommes-nous">
 
                 <div class="shell4">
-                    <div class="qui-sommes-nous-image">
-                        <img src="img/qui-sommes-nous.jpg" width="100%">
+                    <div class="large-icon">
+                        <i class="fa fa-6x fa-group"></i>
                     </div>
                 </div>
+
                 <div class="shell8">
                     <div class="selection">
                         <h2 class="center">Qui sommes-nous ?</h2>
@@ -91,18 +92,20 @@
                 </div>
                 <div class="shell4">
                     <div class="large-icon">
-                        <i class="fa fa-5x fa-gears"></i>
+                        <i class="fa fa-6x fa-gears"></i>
                     </div>
                 </div>
             </div>
         </div>
+        </section>
 
+        <section>
         <div class="row">
             <div id="qui-sommes-nous" class="qui-sommes-nous">
 
                 <div class="shell4">
                     <div class="large-icon">
-                        <i class="fa fa-5x fa-fire-extinguisher"></i>
+                        <i class="fa fa-6x fa-fire-extinguisher"></i>
                     </div>
                 </div>
                 <div class="shell8">

@@ -19,9 +19,13 @@
 <body>
 <header>
     <div class="row">
-        <div class="shell12 header">
-            <div id="logo" class="logo">La Sécurité Incendie</div>
-            <div id="find" class="find"><input type="text" placeholder="Rechercher"></div>
+        <div class="header">
+            <div class="shell6">
+                <div id="logo" class="logo">La Sécurité Incendie</div>
+            </div>
+            <div class="shell6">
+                <div id="find" class="find"><input type="text" placeholder="Rechercher"></div>
+            </div>
         </div>
     </div>
 </header>
