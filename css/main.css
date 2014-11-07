@@ -208,6 +208,7 @@ p {
 .footer {
   background-color: #242424;
   position: bottom;
+  font-size: 18px;
   color: white;
   text-align: center; }
   .footer .mention-legale {

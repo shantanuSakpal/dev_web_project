@@ -3,3 +3,6 @@ deny from all
 </Files>
 DirectoryIndex accueil.php
 order deny,allow
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
