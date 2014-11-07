@@ -4,6 +4,10 @@
 /* Colors */
 /* fonts */
 /* screen width */
+                  /*
+$small-screen-max-size: 420px;
+$medium-screen-max-size: 768px;
+$large-screen-max-size: 1280px; //may not be useful*/
 /* Grid settings */
 /* Building the grid system */
 /*
@@ -16,6 +20,10 @@
 /* Colors */
 /* fonts */
 /* screen width */
+                  /*
+$small-screen-max-size: 420px;
+$medium-screen-max-size: 768px;
+$large-screen-max-size: 1280px; //may not be useful*/
 /* Grid settings */
 *,
 *:after,
@@ -81,7 +89,7 @@
   width: 100%; }
 
 /* Building grids for responsive layout */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .shell1,
   .shell3,
   .shell5,
@@ -97,7 +105,7 @@
   .shell10,
   .shell12 {
     width: 100%; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
   .shell1 {
     width: 100%; }
 
