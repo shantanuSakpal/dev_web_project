@@ -177,6 +177,20 @@ p {
   padding-left: 15%;
   padding-right: 15%; }
 
+.qui-sommes-nous {
+  padding: 0px;
+  margin: 0px; }
+
+.large-icon {
+  padding-top: 15%;
+  left: 40%;
+  position: relative;
+  padding-bottom: 10px; }
+  .large-icon :hover {
+    -webkit-animation: fa-spin 2s infinite linear;
+    -webkit-animation-duration: 10000ms;
+    animation: fa-spin 2s infinite linear; }
+
 .center {
   text-align: center; }
 

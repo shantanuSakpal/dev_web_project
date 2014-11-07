@@ -62,7 +62,24 @@ p{
   padding-right: 15%;
 }
 
+.qui-sommes-nous{
+  padding:0px;
+  margin:0px;
+}
 
+.large-icon{
+  padding-top:15%;
+  left:40%;
+  position: relative;
+  padding-bottom:10px;
+  :hover{
+    -webkit-animation: fa-spin 2s infinite linear;
+    -webkit-animation-duration: 10000ms;
+    animation: fa-spin 2s infinite linear;
+    //-o-transition: rotate(360deg);
+
+  }
+}
 
 .center{
 text-align: center;
