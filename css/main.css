@@ -146,7 +146,11 @@ body {
   font-family: arial, helvetica, sans-serif; }
 
 @media screen and (max-width: 1024px) {
-  font-size: 140%; }
+  input, label, li, a {
+    font-size: 1.5em; }
+
+  h4, h3, h2 {
+    font-size: 1.6em; } }
 .block {
   border-width: 1px;
   border-color: darkred;
