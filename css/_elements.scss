@@ -72,6 +72,9 @@ p{
   p{
     padding: 10px;
   }
+  @media screen and (max-width: $medium-screen-max-size) {
+    .large-icon {display: none;}
+  }
 }
 
   .large-icon{
