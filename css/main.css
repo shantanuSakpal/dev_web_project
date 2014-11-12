@@ -158,7 +158,7 @@ a {
   text-decoration: none; }
 
 p {
-  font-size: 14px; }
+  font-size: 1em; }
 
 .selection {
   top: -4px;
@@ -211,11 +211,10 @@ p {
 .footer {
   background-color: #242424;
   position: bottom;
-  font-size: 100%;
   color: white;
   text-align: center; }
   .footer .mention-legale {
-    font-size: 10px; }
+    font-size: 80%; }
   .footer h4 {
     padding: 10px; }
   .footer p {
