@@ -1,5 +1,5 @@
 /*
-  Here you can change the variables such as colors, numbers of columns, screen sizes, etc...
+  Here we can change the variables such as colors, numbers of columns, screen sizes, etc...
 */
 /* Colors */
 /* fonts */
@@ -15,7 +15,7 @@ $large-screen-max-size: 1280px; //may not be useful*/
   That is why the columns are named "shells" !
 */
 /*
-  Here you can change the variables such as colors, numbers of columns, screen sizes, etc...
+  Here we can change the variables such as colors, numbers of columns, screen sizes, etc...
 */
 /* Colors */
 /* fonts */
@@ -89,7 +89,7 @@ $large-screen-max-size: 1280px; //may not be useful*/
   width: 100%; }
 
 /* Building grids for responsive layout */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .shell1,
   .shell3,
   .shell5,
