@@ -7,6 +7,10 @@ body{
   font-family: arial, helvetica, sans-serif;
 }
 
+@media screen and (max-width:$medium-screen-max-size) {
+  font-size: 140%;
+}
+
 
 .block {
   border-width: 1px;

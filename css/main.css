@@ -145,6 +145,8 @@ $large-screen-max-size: 1280px; //may not be useful*/
 body {
   font-family: arial, helvetica, sans-serif; }
 
+@media screen and (max-width: 1024px) {
+  font-size: 140%; }
 .block {
   border-width: 1px;
   border-color: darkred;
