@@ -105,7 +105,7 @@ $large-screen-max-size: 1280px; //may not be useful*/
   .shell10,
   .shell12 {
     width: 100%; } }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .shell1 {
     width: 100%; }
 
