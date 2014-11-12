@@ -50,20 +50,20 @@
                     <div class="selection">
                         <h2 class="center">Qui sommes-nous ?</h2>
                     </div>
-                    <div>
+                    <div class="article">
                         <p>
                             La société LSI (La Sécurité Incendie), indépendante depuis le 22 septembre 2011, spécialisée initialement sur l’importation et la distribution de matériel incendie et de pièces détachées, a évolué régulièrement pour proposer aujourd'hui des études d’installations et une prestation complète de rénovation d’enceintes forgées (ou équipements sous pression).
                             Résolument tournée vers la satisfaction du client, elle met en œuvre une politique de service axée sur la qualité, la disponibilité et la réactivité.
                         </p>
-                        <br>
+                        
                         <p>
                             L.S.I a  repris sous son entité depuis le 1er juillet 2009 l’atelier de rechargement et de requalification de réservoirs sous pression (air, plongée, Azote, CO2, autres) appartenant initialement à la société SMATIS. La Sécurité Incendie est  titulaire du droit d’usage NF 138 remise en état, garant de notre indépendance et de notre maîtrise des services proposés.
                         </p>
-                        <br>
+                        
                         <p>
                             Activement impliquée dans les instances professionnelles, la direction siège à ce jour à plusieurs instances représentatives de notre profession : le SYPSI, syndicat des professionnels de la sécurité incendie, la FFMI (Fédération Française des Métiers de l’Incendie), et participe à l’élaboration de guides et de normes au travers de l’AFNOR (comités NF 383 et S61E).
                         </p>
-                        <br>
+                        
                     </div>
                 </div>
             </div>
@@ -78,15 +78,15 @@
                     <div class="selection">
                         <h2 class="center">Requalification</h2>
                     </div>
-                    <div>
+                    <div class="article">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque ultricies fermentum. In hac habitasse platea dictumst. Donec accumsan magna leo, a facilisis lectus iaculis a. Fusce mattis libero ac enim efficitur efficitur. Vivamus et lorem condimentum, consequat felis ut, volutpat justo. Aliquam sed mollis magna. Mauris tristique eros nec purus cursus convallis. Sed fermentum erat sed arcu tincidunt viverra in a erat. Sed risus dui, gravida mollis risus sed, aliquet blandit dolor.
                         </p>
-                        <br>
+                        
                         <p>
                             Integer elementum, odio at auctor maximus, orci orci consectetur dui, et vestibulum diam magna ac massa. Suspendisse justo risus, malesuada id turpis rutrum, blandit dignissim magna. Curabitur pretium, felis eget ornare aliquet, lacus dui elementum est, eu lobortis ante magna vitae sapien. Integer vel venenatis eros. Maecenas eget turpis tincidunt, feugiat ante a, tincidunt nibh. Nulla congue rhoncus mauris, vel mattis urna venenatis vel. Sed ullamcorper pellentesque orci, dignissim vulputate ante condimentum ut.
                         </p>
-                        <br>
+                        
 
                     </div>
                 </div>
@@ -112,15 +112,15 @@
                     <div class="selection">
                         <h2 class="center">Matériel incendie</h2>
                     </div>
-                    <div>
+                    <div class="article">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque ultricies fermentum. In hac habitasse platea dictumst. Donec accumsan magna leo, a facilisis lectus iaculis a. Fusce mattis libero ac enim efficitur efficitur. Vivamus et lorem condimentum, consequat felis ut, volutpat justo. Aliquam sed mollis magna. Mauris tristique eros nec purus cursus convallis. Sed fermentum erat sed arcu tincidunt viverra in a erat. Sed risus dui, gravida mollis risus sed, aliquet blandit dolor.
                         </p>
-                        <br>
+                        
                         <p>
                             Integer elementum, odio at auctor maximus, orci orci consectetur dui, et vestibulum diam magna ac massa. Suspendisse justo risus, malesuada id turpis rutrum, blandit dignissim magna. Curabitur pretium, felis eget ornare aliquet, lacus dui elementum est, eu lobortis ante magna vitae sapien. Integer vel venenatis eros. Maecenas eget turpis tincidunt, feugiat ante a, tincidunt nibh. Nulla congue rhoncus mauris, vel mattis urna venenatis vel. Sed ullamcorper pellentesque orci, dignissim vulputate ante condimentum ut.
                         </p>
-                        <br>
+                        
 
                     </div>
                 </div>

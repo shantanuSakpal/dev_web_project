@@ -189,6 +189,9 @@ p {
   padding: 0px;
   margin: 0px; }
 
+.article p {
+  padding: 10px; }
+
 .large-icon {
   padding-top: 15%;
   text-align: center;
@@ -208,7 +211,7 @@ p {
 .footer {
   background-color: #242424;
   position: bottom;
-  font-size: 18px;
+  font-size: 100%;
   color: white;
   text-align: center; }
   .footer .mention-legale {
