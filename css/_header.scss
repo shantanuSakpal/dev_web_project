@@ -14,7 +14,7 @@
   padding-left: 10%;
   font-size: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium-screen-max-size) {
   .logo {display: none;}
 }
 

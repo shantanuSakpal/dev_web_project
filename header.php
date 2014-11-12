@@ -21,7 +21,7 @@
     <div class="row">
         <div class="header">
             <div class="shell6">
-                <div id="logo" class="logo">La Sécurité Incendie</div>
+                <div id="logo" class="logo"><h4>La Sécurité Incendie</h4></div>
             </div>
             <div class="shell6">
                 <div id="find" class="find"><input type="text" placeholder="Rechercher"></div>
