@@ -38,7 +38,7 @@
 
     <section>
         <div class="row">
-            <div id="qui-sommes-nous" class="qui-sommes-nous">
+            <div id="qui-sommes-nous" class="article">
 
                 <div class="shell4">
                     <div class="large-icon">
@@ -50,7 +50,7 @@
                     <div class="selection">
                         <h2 class="center">Qui sommes-nous ?</h2>
                     </div>
-                    <div class="article">
+                    <div>
                         <p>
                             La société LSI (La Sécurité Incendie), indépendante depuis le 22 septembre 2011, spécialisée initialement sur l’importation et la distribution de matériel incendie et de pièces détachées, a évolué régulièrement pour proposer aujourd'hui des études d’installations et une prestation complète de rénovation d’enceintes forgées (ou équipements sous pression).
                             Résolument tournée vers la satisfaction du client, elle met en œuvre une politique de service axée sur la qualité, la disponibilité et la réactivité.
@@ -72,13 +72,13 @@
 
     <section>
         <div class="row">
-            <div id="requalification" class="requalification">
+            <div id="requalification" class="article">
 
                 <div class="shell8">
                     <div class="selection">
                         <h2 class="center">Requalification</h2>
                     </div>
-                    <div class="article">
+                    <div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque ultricies fermentum. In hac habitasse platea dictumst. Donec accumsan magna leo, a facilisis lectus iaculis a. Fusce mattis libero ac enim efficitur efficitur. Vivamus et lorem condimentum, consequat felis ut, volutpat justo. Aliquam sed mollis magna. Mauris tristique eros nec purus cursus convallis. Sed fermentum erat sed arcu tincidunt viverra in a erat. Sed risus dui, gravida mollis risus sed, aliquet blandit dolor.
                         </p>
@@ -101,7 +101,7 @@
 
         <section>
         <div class="row">
-            <div id="qui-sommes-nous" class="qui-sommes-nous">
+            <div id="materiel-incendie" class="article">
 
                 <div class="shell4">
                     <div class="large-icon">
@@ -112,7 +112,7 @@
                     <div class="selection">
                         <h2 class="center">Matériel incendie</h2>
                     </div>
-                    <div class="article">
+                    <div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque ultricies fermentum. In hac habitasse platea dictumst. Donec accumsan magna leo, a facilisis lectus iaculis a. Fusce mattis libero ac enim efficitur efficitur. Vivamus et lorem condimentum, consequat felis ut, volutpat justo. Aliquam sed mollis magna. Mauris tristique eros nec purus cursus convallis. Sed fermentum erat sed arcu tincidunt viverra in a erat. Sed risus dui, gravida mollis risus sed, aliquet blandit dolor.
                         </p>

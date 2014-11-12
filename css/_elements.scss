@@ -62,57 +62,56 @@ p{
   padding-right: 15%;
 }
 
-.qui-sommes-nous{
-  padding:0px;
-  margin:0px;
-}
 
-.article p{
-  padding: 10px;
-}
-
-.large-icon{
-  padding-top:15%;
-  text-align: center;
-  //position: relative;
-  padding-bottom:10px;
-  :hover{
-    -webkit-animation: fa-spin 2s infinite linear;
-    -webkit-animation-duration: 10000ms;
-    animation: fa-spin 2s infinite linear;
-    //-o-transition: rotate(360deg);
-
-  }
-}
-
-.center{
-text-align: center;
-}
-
-.no-white-space{
-  padding: 0px;
-  margin: 0px;
-}
-
-.footer{
-  background-color: #242424;
-  position: bottom;
-  //font-size:100%;
-  color: white;
-  text-align: center;
-  .mention-legale{
-    font-size: 80%;
-  }
-  h4{
-    padding: 10px;
-  }
+.article{
   p{
-    padding: 5px;
-  }
-  img{
     padding: 10px;
   }
 }
+
+  .large-icon{
+    padding-top:15%;
+    text-align: center;
+    //position: relative;
+    padding-bottom:10px;
+    :hover{
+      -webkit-animation: fa-spin 2s infinite linear;
+      -webkit-animation-duration: 10000ms;
+      animation: fa-spin 2s infinite linear;
+      //-o-transition: rotate(360deg);
+
+    }
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .no-white-space{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .footer{
+    background-color: #242424;
+    position: bottom;
+    //font-size:100%;
+    color: white;
+    text-align: center;
+    .mention-legale{
+      font-size: 80%;
+    }
+    h4{
+      padding: 10px;
+    }
+    p{
+      padding: 5px;
+    }
+    img{
+      padding: 10px;
+    }
+  }
+
 
 
 
