@@ -14,9 +14,6 @@
   padding-left: 10%;
   font-size: 20px;
 }
-@media screen and (max-width: $medium-screen-max-size) {
-  .logo {display: none;}
-}
 
 .find{
   position: absolute;
@@ -25,4 +22,10 @@
   padding: 10px;
   padding-right: 30%;
 }
+
+@media screen and (max-width: $medium-screen-max-size) {
+  .logo {display: none;}
+  .find {display:none;}
+}
+
 

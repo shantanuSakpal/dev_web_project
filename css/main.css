@@ -146,7 +146,7 @@ body {
   font-family: arial, helvetica, sans-serif; }
 
 @media screen and (max-width: 1024px) {
-  input, label, li, a {
+  input, label, textarea, li, a {
     font-size: 2.5em; }
 
   h4, h3, h2 {
@@ -243,9 +243,6 @@ p {
   padding-left: 10%;
   font-size: 20px; }
 
-@media screen and (max-width: 1024px) {
-  .logo {
-    display: none; } }
 .find {
   position: absolute;
   top: 0px;
@@ -253,6 +250,12 @@ p {
   padding: 10px;
   padding-right: 30%; }
 
+@media screen and (max-width: 1024px) {
+  .logo {
+    display: none; }
+
+  .find {
+    display: none; } }
 /* Menu */
 .menu {
   padding-top: 10px;
