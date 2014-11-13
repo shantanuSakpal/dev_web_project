@@ -14,6 +14,7 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/font-awesome.css"/>
+    <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>

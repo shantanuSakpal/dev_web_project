@@ -65,6 +65,9 @@
                     <div class="shell8">
                         <textarea placeholder="Votre message"></textarea>
                     </div>
+                    <div class="shell4">
+                        <button class="button-blue" value="Valider">Envoyer</button>
+                    </div>
                 </form>
             </div>
 

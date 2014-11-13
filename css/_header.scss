@@ -5,6 +5,7 @@
   background-color: $header-color;
   height: 40px;
   color: $header-font;
+  z-index: 2;
 }
 .logo{
   position: absolute;
@@ -24,7 +25,10 @@
 }
 
 @media screen and (max-width: $medium-screen-max-size) {
-  .logo {display: none;}
+  .header{
+    display: none;
+    //h4, div{font-size: 22px;}
+    }
   .find {display:none;}
 }
 
