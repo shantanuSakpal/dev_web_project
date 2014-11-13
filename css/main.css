@@ -147,10 +147,10 @@ body {
 
 @media screen and (max-width: 1024px) {
   input, label, li, a {
-    font-size: 1.9em; }
+    font-size: 2.5em; }
 
   h4, h3, h2 {
-    font-size: 2em; } }
+    font-size: 2.7em; } }
 .block {
   border-width: 1px;
   border-color: darkred;
