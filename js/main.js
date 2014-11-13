@@ -1,7 +1,7 @@
 $("document").ready(function () {
 
     $("#nav").addClass("js");
-    $("#nav").addClass("js").before('<div id="menu">☰</div>');
+    $("#nav").addClass("js").before('<p id="menu">☰</p>');
     $("#menu").click(function () {
         $("#nav").toggle();
     });
