@@ -72,7 +72,7 @@ p{
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
   background-color:#408c99;
 }
-.myButton:active {
+.button-blue:active {
   position:relative;
   top:1px;
 }
@@ -82,7 +82,7 @@ p{
   top:-4px;
   padding:0px;
   margin:0px;
-  background-color: #b3b3b3;
+  background-color: $secondary-color;
   position: relative;
   //color: #cacaca;
   h2{
@@ -120,6 +120,17 @@ p{
   }
   @media screen and (max-width: $medium-screen-max-size) {
     .large-icon {display: none;}
+  }
+}
+
+.banner-mat-incendie{
+  background-color: $secondary-color;
+  h4{
+    padding-top: 10px;
+  }
+  p{
+    padding: 10px;
+    text-align: center;
   }
 }
 
@@ -164,6 +175,16 @@ p{
     img{
       padding: 10px;
     }
+  }
+
+  .cart{
+    //position: absolute;
+    border-width: 1px;
+    border-color: $header-color;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
   }
 
 

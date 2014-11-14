@@ -4,10 +4,6 @@
 /* Colors */
 /* fonts */
 /* screen width */
-                  /*
-$small-screen-max-size: 420px;
-$medium-screen-max-size: 768px;
-$large-screen-max-size: 1280px; //may not be useful*/
 /* Grid settings */
 /* Building the grid system */
 /*
@@ -20,11 +16,8 @@ $large-screen-max-size: 1280px; //may not be useful*/
 /* Colors */
 /* fonts */
 /* screen width */
-                  /*
-$small-screen-max-size: 420px;
-$medium-screen-max-size: 768px;
-$large-screen-max-size: 1280px; //may not be useful*/
 /* Grid settings */
+@import url(_contact.css);
 *,
 *:after,
 *:before {
@@ -201,7 +194,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
   background-color: #408c99; }
 
-.myButton:active {
+.button-blue:active {
   position: relative;
   top: 1px; }
 
@@ -209,7 +202,7 @@ p {
   top: -4px;
   padding: 0px;
   margin: 0px;
-  background-color: #b3b3b3;
+  background-color: #40a1ff;
   position: relative; }
   .selection h2 {
     padding-top: 10px;
@@ -235,6 +228,14 @@ p {
 @media screen and (max-width: 1024px) {
   .article .large-icon {
     display: none; } }
+
+.banner-mat-incendie {
+  background-color: #40a1ff; }
+  .banner-mat-incendie h4 {
+    padding-top: 10px; }
+  .banner-mat-incendie p {
+    padding: 10px;
+    text-align: center; }
 
 .large-icon {
   padding-top: 15%;
@@ -266,6 +267,14 @@ p {
     padding: 5px; }
   .footer img {
     padding: 10px; }
+
+.cart {
+  border-width: 1px;
+  border-color: darkred;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px; }
 
 /* Header */
 .header, .header:after {

@@ -15,6 +15,9 @@
                             <h4 class="center">Plongée</h4>
                             <img src="img/anim-plongee.gif">
                             <p>Requalification de vos bouteilles de plongée</p>
+                            <p class="center">
+                                <a href="requalification.php" class="button-blue">En savoir plus</a>
+                            </p>
                         </div>
                     </div>
                     <div class="shell4">
@@ -22,6 +25,9 @@
                             <h4 class="center">CO2</h4>
                             <img src="img/home-co2.jpg">
                             <p>Requalification et service CO2</p>
+                            <p class="center">
+                                <a href="requalification.php" class="center button-blue">En savoir plus</a>
+                            </p>
                         </div>
                     </div>
                     <div class="shell4">
@@ -29,6 +35,9 @@
                             <h4 class="center">Matériel incendie</h4>
                             <img src="img/mat-incendie-home.jpg">
                             <p>Import et distribution de matériel incendie</p>
+                            <p>
+                                <a href="materiel-incendie.php" class="button-blue">En savoir plus</a>
+                            </p>
                         </div>
                     </div>
                 </div>
