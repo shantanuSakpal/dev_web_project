@@ -17,7 +17,7 @@
 /* fonts */
 /* screen width */
 /* Grid settings */
-@import url(_contact.css);
+@import url(_login.css);
 *,
 *:after,
 *:before {
@@ -229,14 +229,6 @@ p {
   .article .large-icon {
     display: none; } }
 
-.banner-mat-incendie {
-  background-color: #40a1ff; }
-  .banner-mat-incendie h4 {
-    padding-top: 10px; }
-  .banner-mat-incendie p {
-    padding: 10px;
-    text-align: center; }
-
 .large-icon {
   padding-top: 15%;
   text-align: center;
@@ -275,6 +267,17 @@ p {
   border-radius: 10px;
   background-color: white;
   margin: 10px; }
+
+.banner-mat-incendie {
+  background-color: #40a1ff; }
+  .banner-mat-incendie h4 {
+    padding-top: 10px; }
+  .banner-mat-incendie p {
+    padding: 10px;
+    text-align: center; }
+
+.product {
+  text-align: center; }
 
 /* Header */
 .header, .header:after {

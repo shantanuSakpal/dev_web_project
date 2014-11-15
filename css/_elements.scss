@@ -123,17 +123,6 @@ p{
   }
 }
 
-.banner-mat-incendie{
-  background-color: $secondary-color;
-  h4{
-    padding-top: 10px;
-  }
-  p{
-    padding: 10px;
-    text-align: center;
-  }
-}
-
   .large-icon{
     padding-top:15%;
     text-align: center;
@@ -178,7 +167,6 @@ p{
   }
 
   .cart{
-    //position: absolute;
     border-width: 1px;
     border-color: $header-color;
     border-style: solid;
@@ -187,6 +175,20 @@ p{
     margin: 10px;
   }
 
+.banner-mat-incendie{
+  background-color: $secondary-color;
+  h4{
+    padding-top: 10px;
+  }
+  p{
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.product{
+  text-align: center;
+}
 
 
 

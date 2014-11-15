@@ -27,7 +27,7 @@ include "header.php";?>
 </div>
 <div class="row">
     <div class="shell12">
-        <div class="shell9">
+        <div class="shell10">
             <div class="shell4 product">
                 <h4>Lance à incendie</h4>
                 <img src="img/fr-default-home_default.jpg">
@@ -71,7 +71,7 @@ include "header.php";?>
                 <p>Demander un devis</p>
             </div>
         </div>
-        <div class="shell3 cart">
+        <div class="shell2 cart">
             <div class="shell2">
                 <i class="fa fa-2x fa-align-center fa-shopping-cart"></i>
             </div>

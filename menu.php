@@ -12,7 +12,7 @@
                 <li><a href="accueil.php">Accueil</a></li>
                 <li><a href="materiel-incendie.php">Matériel Incendie</a></li>
                 <li><a href="requalification.php">Requalification</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="mes-devis.php">Mes devis</a></li>
             </ul>
         </div>
     </div>
