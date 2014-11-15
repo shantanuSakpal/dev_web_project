@@ -166,15 +166,6 @@ p{
     }
   }
 
-  .cart{
-    border-width: 1px;
-    border-color: $header-color;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-  }
-
 .banner-mat-incendie{
   background-color: $secondary-color;
   h4{
@@ -186,10 +177,28 @@ p{
   }
 }
 
-.product{
-  text-align: center;
+.cart{
+  float: left;
+  border-width: 1px;
+  border-color: $header-color;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  p{
+    padding: 10px;
+  }
 }
 
+.product{
+  position: relative;
+  text-align: center;
+  -moz-box-shadow: 2px 2px 10px 0px #656565;
+  -webkit-box-shadow: 2px 2px 10px 0px #656565;
+  -o-box-shadow: 2px 2px 10px 0px #656565;
+  box-shadow: 2px 2px 10px 0px #656565;
+  padding: 10px;
+}
 
 
 
