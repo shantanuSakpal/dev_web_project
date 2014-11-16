@@ -8,3 +8,5 @@ The second part is to connect this project to a database using JEE.
 Another criteria is to use a versionning workspace. I chose Git and Github.
 We are not allowed to use any CSS framework, thus sorry if design isn't fully responsive. I'll do my best ;)
 
+The project can be seen on http://lsi.louismoreau.eu
+
