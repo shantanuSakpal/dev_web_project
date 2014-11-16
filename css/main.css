@@ -287,6 +287,10 @@ p {
   -o-box-shadow: 2px 2px 10px 0px #656565;
   box-shadow: 2px 2px 10px 0px #656565;
   padding: 10px; }
+  .product p {
+    padding: 10px; }
+  .product a {
+    padding: 10px; }
 
 /* Header */
 .header, .header:after {

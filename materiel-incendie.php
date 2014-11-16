@@ -37,48 +37,48 @@ include "header.php";?>
                 <p>Récapitulatif de devis :</p>
             </div>
         </div>
-        <div class="shell9">
+        <div class="shell8">
             <div id="product" class="shell4 product">
                 <h4>Lance à incendie</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégories: Lance, CO2</p>
-                <p>Détails</p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
             <div class="shell4 product">
                 <h4>Extincteur CO2 2kg</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégories: Extincteur, CO2</p>
-                <p>Détail<p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
             <div class="shell4 product">
                 <h4>Extincteur CO2 5kg</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégories: Extincteur, CO2</p>
-                <p>Détail<p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
             <div class="shell4 product">
                 <h4>Tête alu</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégorie: Pièces détachées, robineterie</p>
-                <p>Détail<p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
             <div class="shell4 product">
                 <h4>Lance à incendie</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégorie: Extincteur</p>
-                <p>Détail<p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
             <div class="shell4 product">
                 <h4>Lance à incendie</h4>
                 <img src="img/fr-default-home_default.jpg">
                 <p>Catégorie: Extincteur</p>
-                <p>Détail<p>
-                <p>Demander un devis</p>
+                <a class="button-blue" href="produit.php">Détails</a>
+                <a href="#" class="button-blue">Demander un devis</a>
             </div>
         </div>
 

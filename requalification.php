@@ -27,9 +27,13 @@ include "header.php";?>
 <div class="row">
     <div class="shell6">
         <h4 class="center">Exincteur CO2</h4>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula dolor convallis leo laoreet porttitor. Quisque vestibulum metus vel metus mattis mollis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nibh risus, dapibus id turpis eget, porttitor bibendum nibh. Suspendisse ut porta mi. Nunc volutpat magna quis felis tincidunt efficitur. Nulla quis dictum nulla. Quisque sit amet ornare nibh.</p>
     </div>
     <div class="shell6">
         <h4 class="center">Bouteille de plongée</h4>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula dolor convallis leo laoreet porttitor. Quisque vestibulum metus vel metus mattis mollis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nibh risus, dapibus id turpis eget, porttitor bibendum nibh. Suspendisse ut porta mi. Nunc volutpat magna quis felis tincidunt efficitur. Nulla quis dictum nulla. Quisque sit amet ornare nibh.</p>
     </div>
 </div>
 
