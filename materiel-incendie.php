@@ -35,6 +35,10 @@ include "header.php";?>
             </div>
             <div class="shell12">
                 <p>Récapitulatif de devis :</p>
+                <ul id="cart-devis">
+
+                </ul>
+                <a href="mes-devis.php" class="button-blue center">Valider</a>
             </div>
         </div>
         <div class="shell8">
